@@ -1,0 +1,42 @@
+/* 공통사항 */
+/* 여백-0, box크기-margin,padding포함 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+/* 문자 밑줄제거, 색상 상속 */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* 이미지, 비디오 배치 */
+img,
+video {
+    vertical-align: middle;
+}
+
+address,
+em,
+i {
+    font-style: normal;
+}
+
+/* .blind 처리 - 화면에서만 안보이게 처리*/
+.blind {
+    position: absolute;
+    top: -99999px;
+}
+
+/* 본문영역 */
+body {
+    font-family: "Pretendard", sans-serif;
+    color: #222;
+    line-height: 1em;
+}
